@@ -1,0 +1,3 @@
+src/*.o
+.DS_Store
+example/build
