@@ -51,7 +51,7 @@ TEST_SOURCES += $(wildcard src/controller/*.cpp)
 TEST_SOURCES += $(wildcard tests/*.cpp)
 
 # By default, ARPTEST_DIR is arptest in your current directory, but you can override it
-#ARPTEST_DIR ?= ..
+ARPTEST_DIR ?= ./arptest
 
 include $(ARPTEST_DIR)/build.mk
 ```
