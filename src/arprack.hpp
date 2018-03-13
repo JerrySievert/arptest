@@ -56,4 +56,9 @@ namespace rack {
   struct Model {
 
   };
+
+  struct TextField {
+    TextField() { };
+    char *text;
+  };
 }
