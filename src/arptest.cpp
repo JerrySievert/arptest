@@ -55,3 +55,9 @@ int main (int argc, char **argv) {
 
   return (arp_test_failed > 0 ? 1 : 0);
 }
+
+
+namespace rack {
+  // utility functions
+  float clamp (float in, float min, float max) { return (in < min) ? min : (in > max) ? max : in; }
+}

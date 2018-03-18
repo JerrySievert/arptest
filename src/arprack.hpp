@@ -61,4 +61,7 @@ namespace rack {
     TextField() { };
     char *text;
   };
+
+  // utility functions
+  float clamp (float, float, float);
 }
