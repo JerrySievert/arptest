@@ -60,4 +60,7 @@ int main (int argc, char **argv) {
 namespace rack {
   // utility functions
   float clamp (float in, float min, float max) { return (in < min) ? min : (in > max) ? max : in; }
+
+  float engineGetSampleRate ( ) { return 44000; }
+  float engineGetSampleTime ( ) { return 1.0f / 44000; }
 }

@@ -64,4 +64,6 @@ namespace rack {
 
   // utility functions
   float clamp (float, float, float);
+  float engineGetSampleRate ( );
+  float engineGetSampleTime ( );
 }
